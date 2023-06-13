@@ -17,7 +17,7 @@ Split the contents into each line using .split() function.
 Iterate the list of lines and increment the value of variable (word) each time.
 #### Step 6: 
 Run the program by giving "python prgm.py EX12.txt" on the terminal.
-## PROGRAM:
+### PROGRAM:
 ```
 import sys
 count = {}
@@ -31,7 +31,7 @@ with open(sys.argv[1], 'r') as f:
 print(count)
 f.close()
 ```
-### OUTPUT:
+#### OUTPUT:
 ![comm](https://github.com/Adhithyaram29D/command-line-arguments-to-count-word/assets/119393540/918e4d7a-fa03-4c1d-9786-b270dbdb6cc6)
 
 
